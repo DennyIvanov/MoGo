@@ -1428,51 +1428,6 @@ h6 {
 	.subscribe__btn:active {
     	background-color: #74c7b8;
 	}
-	
-	
-	.card__inner:hover .card__image {
-    	transform: none;
-	}
-	.card__inner:hover .card__image img {
-    	opacity: 1;
-	}
-	.card__inner:hover .card__text {
-		opacity: 0;
-	}
-	.card__inner:active .card__image {
-    	transform: translate3d(-10px, -10px, 0);
-	}
-	.card__inner:active .card__image img {
-    	opacity: 0.1;
-	}
-	.card__inner:active .card__text {
-		opacity: 1;
-	}
-	
-	
-	.works__item:hover {
-		background: none;
-	}
-	
-	.works__item:hover .works__image {
-		opacity: 1;
-	}
-	
-	.works__item:hover .works__info {
-    	opacity: 0;
-	}
-	.works__item:active {
-		background: linear-gradient(to bottom, #f38181, #fce38a);
-	}
-	
-	.works__item:active .works__image {
-		opacity: 0.1;
-	}
-	
-	.works__item:active .works__info {
-    	opacity: 1;
-	}
-	
    
     /*  Intro  */
     .intro {
