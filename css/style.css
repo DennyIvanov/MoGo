@@ -1750,6 +1750,9 @@ h6 {
     .works__col {
         width: 100%;
     }
+	.works__item img {
+		width: 100%;
+	}
 
     /*  Client  */
     .clients__photo {
