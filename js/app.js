@@ -1,5 +1,5 @@
 
-$(function() {
+$(function () {
 	
 	/* Fixed Header */
 	let header = $("#header"); 
@@ -15,7 +15,7 @@ $(function() {
 		 introH = intro.innerHeight();
 		 scrollPos = $(this).scrollTop();
         
-		 checkScroll(scrollPos, introH);
+		 checkScroll(scrollPos, introH);	
 	});
 	
 	
@@ -34,7 +34,7 @@ $(function() {
 		event.preventDefault();
 		
 		let $this = $(this);
-		// получем идентификатор блока из атрибута data-***
+		// получем идентификатор блока из атрибута data-scroll
 		let blockId = $(this).data('scroll');
 		// находим высоту, на которой расположен блок
 		let blockOffset = $(blockId).offset().top;
@@ -49,6 +49,7 @@ $(function() {
 		 // анимируем переход к блоку, время: 500 мс
 		$("html, body").animate({scrollTop: blockOffset}, 500);
 	});
+	
 	
 
 	/* Menu nav toggle */
